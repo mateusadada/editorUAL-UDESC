@@ -1,0 +1,14 @@
+prog Algoritmo33
+
+     int numero1, numero2;
+     
+     imprima "\nDigite um numero inteiro: ";
+     leia numero1;
+     
+     imprima "\nDigite outro numero inteiro: ";
+     leia numero2;
+     
+     imprima "\nOs dois numeros informados sao: ", numero1, " e ", numero2;
+
+     imprima "\n\n";
+fimprog

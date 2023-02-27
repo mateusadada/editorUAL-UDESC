@@ -1,0 +1,13 @@
+prog Algoritmo78
+
+     int lados, diagonais;
+     
+     imprima "\nDigite quantos lados tem o poligono: ";
+     leia lados;
+     
+     diagonais <- (lados * (lados - 3)) div 2;
+
+     imprima "\nA quantidade de diagonais diferentes do poligono eh ", diagonais;
+
+     imprima "\n\n";
+fimprog

@@ -1,0 +1,6 @@
+prog Algoritmo31
+
+     imprima "\nA media entre 8, 9 e 7 e: ", (8+9+7)/3;
+
+     imprima "\n\n";
+fimprog

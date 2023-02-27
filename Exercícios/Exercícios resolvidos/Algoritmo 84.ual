@@ -1,0 +1,27 @@
+prog Algoritmo84
+
+     int numero;
+     
+     imprima "\nDigite um numero inteiro: ";
+     leia numero;
+     
+     se (numero == 0)
+     {
+          imprima "\nO numero eh NEUTRO";
+     }
+     
+     senao
+     {
+          se (numero % 2 == 0)
+          {
+               imprima "\nO numero eh PAR";
+          }
+          
+          senao
+          {
+               imprima "\nO numero eh IMPAR";
+          }     
+     }
+          
+     imprima "\n\n";
+fimprog

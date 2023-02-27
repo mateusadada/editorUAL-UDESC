@@ -1,0 +1,13 @@
+prog Algoritmo183
+
+     int i, numero;
+     
+     para (i <- 1; i <= 10; i++)
+     {
+          imprima "\n\nDigite um numero: ";
+          leia numero;
+          imprima "O quadrado eh: ", numero ^ 2;
+     }
+
+     imprima "\n\n";
+fimprog

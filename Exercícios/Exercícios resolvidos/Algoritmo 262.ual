@@ -1,0 +1,16 @@
+prog Algoritmo262
+
+     int numero;
+     
+     imprima "\nDigite um numero: ";
+     leia numero;
+     
+     enquanto (numero <> -999)
+     {
+              imprima "O triplo eh ", numero * 3;
+              imprima "\n\nDigite um numero: ";
+              leia numero;
+     }
+
+     imprima "\n\n";
+fimprog

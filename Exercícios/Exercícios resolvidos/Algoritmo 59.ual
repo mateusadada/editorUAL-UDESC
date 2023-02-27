@@ -1,0 +1,14 @@
+prog Algoritmo59
+
+     real catetoA, catetoB;
+     
+     imprima "\nDigite o valor do cateto de um triangulo retangulo: ";
+     leia catetoA;
+     
+     imprima "Digite o valor do outro cateto: ";
+     leia catetoB;
+
+     imprima "\nHipotenusa: ", formatar(raiz((catetoA**2) + (catetoB**2)),2);
+
+     imprima "\n\n";
+fimprog

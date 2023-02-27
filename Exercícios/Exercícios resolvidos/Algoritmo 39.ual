@@ -1,0 +1,16 @@
+prog Algoritmo39
+
+     real numero1, numero2, media;
+     
+     imprima "\nDigite um numero real: ";
+     leia numero1;
+     
+     imprima "\nDigite outro numero real: ";
+     leia numero2;
+     
+     media <- (numero1 + numero2)/2;
+     
+     imprima "\nMedia: ", media;
+
+     imprima "\n\n";
+fimprog

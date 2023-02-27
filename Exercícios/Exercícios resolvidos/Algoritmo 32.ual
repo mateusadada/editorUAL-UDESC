@@ -1,0 +1,11 @@
+prog Algoritmo32
+
+     int numero;
+     
+     imprima "\nDigite um numero inteiro: ";
+     leia numero;
+     
+     imprima "\nO numero e: ", numero;
+
+     imprima "\n\n";
+fimprog

@@ -1,0 +1,17 @@
+prog Algoritmo40
+
+     int numero1, numero2;
+     
+     imprima "\nDigite um numero inteiro: ";
+     leia numero1;
+     
+     imprima "\nDigite outro numero inteiro: ";
+     leia numero2;
+     
+     imprima "\nDividendo: ", numero1;
+     imprima "\nDivisor: ", numero2;
+     imprima "\nQuociente: ", numero1 div numero2;
+     imprima "\nResto: ", numero1 % numero2;
+
+     imprima "\n\n";
+fimprog

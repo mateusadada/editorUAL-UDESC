@@ -1,0 +1,28 @@
+prog vetor6
+
+   int i, valorA[8], valorB[8], valorC[8], contador;
+   
+   contador <- 9;
+   
+   para (i <- 0; i < 8; i++)
+   {
+      valorA[i] <- contador + 1;
+      contador++;
+   }
+   
+   contador <- 0;
+   
+   para (i <- 0; i < 8; i++)
+   {
+      valorB[i] <- contador + 1;
+      contador++;
+   }
+   
+   para (i <- 0; i < 8; i++)
+   {
+      valorC[i] <- valorA[i] + valorB[i]; 
+      imprima "\nValor C da posicao ", i, ": ", valorC[i];  
+   }
+   
+   imprima "\n\n";
+fimprog

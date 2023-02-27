@@ -1,0 +1,14 @@
+prog Algoritmo54
+
+     real base, altura;
+     
+     imprima "\nDigite a base do triangulo: ";
+     leia base;
+     
+     imprima "Digite a altura do triangulo: ";
+     leia altura;
+
+     imprima "\nArea: ", formatar((base * altura)/2,2);
+
+     imprima "\n\n";
+fimprog

@@ -1,0 +1,66 @@
+prog Algoritmo329
+
+     int A, B, C, D, voto, nulo, branco, eleitores;
+     
+     A <- 0;
+     B <- 0;
+     C <- 0;
+     D <- 0;
+     nulo <- 0;
+     branco <- 0;
+     eleitores <- 0;     
+
+     faca
+     {
+          imprima "\nDigite o codigo do voto (999 encerra a votacao): ";
+          leia voto;
+          
+          se (voto == 999)
+          {
+          }
+          
+          senao
+          {
+               eleitores++;
+               
+               se (voto == 22)
+               {
+                    A++;
+               }
+               
+               se (voto == 30)
+               {
+                    B++;
+               }
+               
+               se (voto == 27)
+               {
+                    C++;
+               }
+               
+               se (voto == 15)
+               {
+                    D++;
+               }
+               
+               se (voto == 5)
+               {
+                    nulo++;
+               }
+               
+               se (voto == 6)
+               {
+                    branco++;
+               }
+          }               
+
+     }
+     enquanto (voto <> 999)
+     
+     imprima "\nTotal de votos para cada candidato: A = ", A, "     B = ", B, "     C = ", C, "     D = ", D;
+     imprima "\nTotal de votos nulos: ", nulo;
+     imprima "\nTotal de votos em branco: ", branco;
+     imprima "\nPercentual dos votos em branco e nulos sobre o total: ", formatar(((branco+nulo)*100)/eleitores,2), " %";
+
+     imprima "\n\n";
+fimprog

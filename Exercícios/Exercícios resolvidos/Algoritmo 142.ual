@@ -1,0 +1,46 @@
+#Algoritmo 142
+
+prog Algoritmo142
+
+     int A, B, C, aux;
+     imprima "\nInforme os pontos do arqueiro A: ";
+     leia A;
+     imprima "\nInforme os pontos do arqueiro B: ";
+     leia B;
+     imprima "\nInforme os pontos do arqueiro C: ";
+     leia C;
+     
+     se(A > B)
+     {
+     aux <- A;
+     A <- B;
+     B <- aux;
+     }
+     
+     se(A > C)
+     {
+     aux <- A;
+     A <- C;
+     C <- aux;
+     }
+      
+     se(B > C)
+     {
+     aux <- B;
+     B <- C;
+     C <- aux;
+     }
+     
+     imprima "\nOrdem decrescente dos pontos: ", C, ", ", B, " e ", A;
+     
+     se(A + B + C > 100)
+     {
+     imprima "\nA media dos pontos eh: ", formatar((A+B+C)/3,1);
+     }
+     senao
+     {
+     imprima "\nEquipe desclassificada!";
+     }
+     
+     imprima "\n\n";
+fimprog     

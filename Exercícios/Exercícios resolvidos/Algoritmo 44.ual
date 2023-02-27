@@ -1,0 +1,16 @@
+prog Algoritmo44
+
+     real numero, base, logaritmo;
+     
+     imprima "\nDigite um numero para calcular o logaritmo: ";
+     leia numero;
+     
+     imprima "Digite a base: ";
+     leia base;
+     
+     logaritmo <- log(numero) / log(base);
+     
+     imprima "\nLogaritmo: ", formatar(logaritmo,2);
+
+     imprima "\n\n";
+fimprog

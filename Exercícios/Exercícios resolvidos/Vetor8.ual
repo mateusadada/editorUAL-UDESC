@@ -1,0 +1,31 @@
+prog Vetor8
+
+   int i, aux, A[3], B[3], C[6];
+   
+   aux <- 0;
+   
+   imprima "\n";
+   
+   para (i <- 0; i < 3; i++)
+   {
+      imprima "Digite um numero inteiro (", i + 1, "): ";
+      leia A[i];
+      
+      imprima "Digite um numero inteiro (", i + 1, "): ";
+      leia B[i];
+      
+      imprima "\n";
+      
+      C[aux] <- A[i];
+      aux++;
+      C[aux] <- B[i];
+      aux++;            
+   }
+         
+   para (i <- 0; i < 6; i++)
+   {
+      imprima "\nVetor C na posicao ", i, " eh: ", C[i];
+   }
+
+   imprima "\n\n";
+fimprog

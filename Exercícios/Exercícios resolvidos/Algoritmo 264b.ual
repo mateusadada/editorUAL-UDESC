@@ -1,0 +1,34 @@
+prog Algoritmo264b
+
+     int numero, repeticao, soma, i;
+     
+     soma <- 0;
+     
+     imprima "\nDigite a quantidade de numeros que deseja inserir: ";
+     leia repeticao;
+     
+     se (repeticao < 1)
+     {
+          imprima "\nFIM DO PROGRAMA";
+     }
+     
+     senao
+     {
+          i <- 1;
+          imprima "\n";
+          
+          faca
+          {
+               imprima "Digite um numero: ";
+               leia numero;
+               
+               soma <- soma + numero;
+               i++;               
+          }
+          enquanto (i <= repeticao)
+          
+          imprima "\nA media dos numeros digitados eh ", formatar(soma / repeticao,2);
+     }
+
+     imprima "\n\n";
+fimprog

@@ -1,0 +1,13 @@
+#Faça um programa que receba o salário-base de um funcionário, calcule e mostre o salário a receber, 
+#sabendo-se que esse funcionário tem gratificação de 5% sobre o salário-base, e paga imposto de 7% sobre o salário base.
+
+prog Exercicio1
+     
+     real SalarioBase, SalarioLiquido;
+     imprima "\nInforme o salario base do colaborador: ";
+     leia SalarioBase;
+     SalarioLiquido <- SalarioBase * 98;
+     imprima "\nO funcionario ira receber R$ ", formatar(SalarioLiquido,2), " reais";
+     imprima "\n\n";
+     
+fimprog

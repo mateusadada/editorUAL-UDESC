@@ -1,0 +1,10 @@
+prog Algoritmo18
+
+     int x;
+     
+     x <- 10;
+     
+     imprima "\nValor de x = ", x + 1;
+
+     imprima "\n\n";
+fimprog

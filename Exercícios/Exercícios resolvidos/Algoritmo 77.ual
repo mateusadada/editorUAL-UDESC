@@ -1,0 +1,15 @@
+prog Algoritmo77
+
+     real numero1, numero2;
+     
+     imprima "\nDigite um numero real: ";
+     leia numero1;
+     
+     imprima "Digite outro numero real: ";
+     leia numero2;
+
+     imprima "\nQuadrado da diferenca: ", formatar((numero1 - numero2)**2,2);
+     imprima "\nDiferenca dos quadrados: ", formatar(numero1**2 - numero2**2,2);
+
+     imprima "\n\n";
+fimprog

@@ -1,0 +1,16 @@
+prog Algoritmo56
+
+     string nome;
+     int idade;
+     
+     imprima "\nDigite um nome: ";
+     leia nome;
+     
+     imprima "Digite uma idade: ";
+     leia idade;
+
+     imprima "\nNome: ", nome;
+     imprima "\nIdade: ", idade;
+
+     imprima "\n\n";
+fimprog

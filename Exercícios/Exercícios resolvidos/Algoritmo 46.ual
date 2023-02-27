@@ -1,0 +1,11 @@
+prog Algoritmo46
+
+     real aplicacao;
+     
+     imprima "\nDigite o saldo de uma aplicacao: R$ ";
+     leia aplicacao;
+     
+     imprima "\nO novo saldo com reajuste de 1%: R$ ", aplicacao *1.01;
+
+     imprima "\n\n";
+fimprog

@@ -1,0 +1,27 @@
+prog Algoritmo86
+
+     int numero;
+     
+     imprima "\nDigite um numero: ";
+     leia numero;
+     
+     se (numero == 0)
+     {
+          imprima "\nO numero eh NULO";
+     }
+     
+     senao
+     {
+           se (numero < 0)
+           {
+                imprima "\nO numero eh NEGATIVO";
+           }
+           
+           senao
+           {
+                imprima "\nO numero eh POSITIVO";
+           }
+     }
+     
+     imprima "\n\n";
+fimprog

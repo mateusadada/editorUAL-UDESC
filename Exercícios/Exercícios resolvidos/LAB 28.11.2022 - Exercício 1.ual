@@ -1,0 +1,49 @@
+#LAB – Exercícios
+
+#Atividade Segunda - 28/11 - Estado de Emergência
+
+prog exercicio1
+
+   int numero[20], i, maior, menor, par, somatotal, flag;
+   
+   par <- 0; somatotal <- 0; flag <- 0;
+   
+   imprima "\n";
+   
+   para (i <- 0; i < 20; i++)
+   {
+      imprima "Digite um numero (", i + 1, "/20): ";
+      leia numero[i];
+      
+      se ((numero[i] % 2) == 0)
+      {
+         par <- par + 1;
+      }
+      
+      somatotal <- somatotal + numero[i];
+      
+      se (flag == 0)
+      {
+         flag <- 1;
+         maior <- numero[i];
+         menor <- numero[i];
+      }
+      
+      se (numero[i] > maior)
+      {
+         maior <- numero[i];
+      }
+      
+      se (numero[i] < menor)
+      {
+         menor <- numero[i];
+      }
+   }
+   
+   imprima "\nMaior: ", maior;
+   imprima "\nMenor: ", menor;
+   imprima "\nPercentual de numeros pares: ", formatar((par/20)*100,2), " %";
+   imprima "\nMedia dos valores: ", formatar(somatotal/20,2);
+
+   imprima "\n\n";
+fimprog   

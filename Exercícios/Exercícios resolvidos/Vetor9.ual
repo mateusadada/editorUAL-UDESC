@@ -1,0 +1,44 @@
+prog Vetor9
+
+   int i, valor[10], somatotal, opcao, flag;
+   
+   somatotal <- 0;
+   flag <- 0;
+   
+   faca
+   {
+      imprima "\n\t***MENU***";
+      imprima "\n1 - Leia dez valores";
+      imprima "\n2 - Mostra a soma dos valores digitados";
+      imprima "\n9 - Termina o algoritmo\n\nOpcao desejada: ";
+      leia opcao;
+      
+      imprima "\n";
+          
+      se (opcao == 1)
+      {
+         flag <- 1;
+         para (i <- 0;i < 10; i++)
+         {
+            imprima "Digite um numero inteiro (", i + 1, "): ";
+            leia valor[i];
+            
+            somatotal <- somatotal + valor[i];
+         }
+      }
+      
+      se (flag == 0)
+      {
+         imprima "\nVoce deve escolher digitar os 10 valores primeiro\n";
+      }
+      
+      se ((flag == 1) && (opcao == 2))
+      {
+         imprima "\nA soma dos valores digitados eh: ", somatotal;
+         imprima "\n";
+      }            
+   }
+   enquanto (opcao <> 9)  
+
+   imprima "\n";
+fimprog

@@ -1,0 +1,50 @@
+prog Algoritmo334
+
+     int FLAG, identificacao;
+     real peso, maior, menor;
+     
+     FLAG <- 1;
+
+     imprima "\nDigite um numero de identificacao do boi: ";
+     leia identificacao;
+     
+     se (identificacao <= 0)
+     {
+          imprima "\nFIM DO PROGRAMA";
+     }
+     
+     senao
+     {
+          faca
+          {
+               imprima "Digite o peso do boi: ";
+               leia peso;
+          
+               se (FLAG == 1)
+               {
+                    FLAG <- 0;
+                    maior <- peso;
+                    menor <- peso;
+               }
+               
+               se (peso > maior)
+               {
+                    maior <- peso;   
+               }
+               
+               se (peso < menor)
+               {
+                    menor <- peso;
+               }
+              
+              imprima "\nDigite um numero de identificacao do boi: ";
+              leia identificacao;
+          }              
+          enquanto (identificacao > 0)
+          
+          imprima "\nBoi mais gordo: ", maior;
+          imprima "\nBoi mais magro: ", menor;
+     }
+
+     imprima "\n\n";
+fimprog

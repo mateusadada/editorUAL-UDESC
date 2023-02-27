@@ -1,0 +1,15 @@
+prog Algoritmo57
+
+     real prova1, prova2;
+     
+     imprima "\nDigite a nota da prova 1: ";
+     leia prova1;
+     
+     imprima "Digite a nota da prova 2: ";
+     leia prova2;
+
+     imprima "\nMedia truncada: ", realint(((prova1 + prova2)/2)-0.0001);
+     imprima "\nMedia arredondada: ", realint((prova1 + prova2)/2);
+
+     imprima "\n\n";
+fimprog

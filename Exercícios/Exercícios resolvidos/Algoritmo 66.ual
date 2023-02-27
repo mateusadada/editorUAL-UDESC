@@ -1,0 +1,21 @@
+prog Algoritmo66
+
+     int velocidademedia;
+     real tempo, distancia, LitrosUsados;
+     
+     imprima "\nDigite o tempo gasto na viagem (horas): ";
+     leia tempo;
+     
+     imprima "Digite a velocidade media (km/h): ";
+     leia velocidademedia;
+     
+     distancia <- tempo * velocidademedia;
+     LitrosUsados <- distancia / 12;
+     
+     imprima "\nVelocidade media: ", velocidademedia, " km/h";
+     imprima "\nTempo gasto: ", tempo, " horas";
+     imprima "\nDistancia percorrida: ", distancia, " km";
+     imprima "\nQuantidade de litros gastos na viagem: ", formatar(LitrosUsados,2);
+
+     imprima "\n\n";
+fimprog

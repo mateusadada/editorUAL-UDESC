@@ -1,0 +1,10 @@
+prog Algoritmo9
+
+     imprima "\n\t***COMO JOGAR O JOGO DA VELHA***";
+     imprima "\nDesenhe o tabuleiro. Para comecar, desenhe um tabuleiro com 3 x 3 casas.";
+     imprima "\nParticipam duas pessoas, que jogam alternadamente, preenchendo cada um dos espacos vazios.";
+     imprima "\nCada participante deve usar um simbolo (X ou O).";
+     imprima "\nVence o jogador que conseguir formar primeiro uma linha com tres simbolos iguais, seja ela na horizontal, vertical ou diagonal.";
+
+     imprima "\n\n";
+fimprog

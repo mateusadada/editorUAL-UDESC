@@ -1,0 +1,24 @@
+prog Algoritmo20
+
+     string c, c1, d, d1;
+     
+     imprima "\nDigite palavra 1: ";
+     leia c;
+     imprima "\nDigite palavra 2: ";
+     leia c1;
+     
+     imprima "\nTamanho da 1 palavra: ", strtam(c);
+     imprima "\nConcatenando: ", strconcat(c,c1);
+     d <- strcopia(c);
+     imprima "\nConteudo de D: ", d;
+     d1<- strconcat(c,c1);
+     imprima "\nConcatenacao ", d1;
+     imprima "\nPrimeiro caractere: ", strprim(c);
+     imprima "\nUltimo caractere: ", strult(c);
+     imprima "\nTodos menos o primeiro: ", strresto(c);
+     imprima "\nO terceiro elemento: ", strelem(c,3);
+     imprima "\nOs tres primeiros elementos: ", strnprim(c,3);
+     imprima "\nOs tres ultimos elementos: ", strnresto(c,3); 
+
+     imprima "\n\n";
+fimprog

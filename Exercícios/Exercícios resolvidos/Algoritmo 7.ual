@@ -1,0 +1,13 @@
+prog Algoritmo7
+
+     imprima "\n1. Independente se estudou ou nao e fundamental a confianca para nao abalar o psicologico.";
+     imprima "\n2. Durma bem na noite anterior.";
+     imprima "\n3. Nao esqueca os materiais (caneta, lapis, borracha etc.).";
+     imprima "\n4. Ao receber a prova insira o seu nome e confira se nao existe alguma rasura.";
+     imprima "\n5. Leia todas as questoes e defina as faceis, as medias e as dificeis.";
+     imprima "\n6. Comece pelas faceis e depois suba a dificuldade, a fim de garantir que as faceis serao acertadas.";
+     imprima "\n7. Apenas no final da prova passe as respostas de caneta.";
+     imprima "\n8. Confira, mais uma vez, as informacoes colocadas.";
+
+     imprima "\n\n";
+fimprog

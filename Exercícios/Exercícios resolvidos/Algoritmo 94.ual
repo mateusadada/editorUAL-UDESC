@@ -1,0 +1,19 @@
+#Algoritmo 94
+#Entrar com um número e imprimir uma das mensagens: é multiplo de 3 ou não é multiplo de 3
+
+prog Algoritmo94
+
+     int num;
+     imprima "\nInforme um numero: ";
+     leia num;
+     se (num % 3 == 0)
+     {
+     imprima "\nE multiplo de 3: ", num;
+     }
+     se (num % 3 <> 0)
+     {
+     imprima "\nNao e multiplo de 3: ", num;
+     }
+     imprima "\n\n";
+     
+fimprog     

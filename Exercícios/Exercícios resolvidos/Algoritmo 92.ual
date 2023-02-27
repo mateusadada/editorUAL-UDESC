@@ -1,0 +1,22 @@
+#Algoritmo 92
+#Construir um algoritmo que leia dois números inteiros e efetue a adição. Caso o valor somado seja maior que 20, este deverá ser apresentado subtraindo-se 5
+
+prog Algoritmo92
+
+     int num1, num2, soma;
+     imprima "\nInforme um numero: ";
+     leia num1;
+     imprima "\nInforme outro numero: ";
+     leia num2;
+     soma <- num1 + num2;
+     se (soma > 20)
+     {
+     imprima "\nA somatoria dos dois numeros e maior que 20. O resultado menos 5 e: ", soma-5;
+     }
+     se (soma <= 20)
+     {
+     imprima "\nA somatoria dos dois numeros e menor ou igual a 20. O resultado e: ", soma;
+     }
+     imprima "\n\n";
+     
+fimprog

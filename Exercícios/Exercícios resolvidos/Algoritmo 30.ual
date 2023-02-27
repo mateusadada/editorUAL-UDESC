@@ -1,0 +1,6 @@
+prog Algoritmo30
+
+     imprima "\nO produto entre 28 e 43: ", 28 * 43;
+
+     imprima "\n\n";
+fimprog

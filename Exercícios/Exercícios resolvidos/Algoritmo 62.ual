@@ -1,0 +1,11 @@
+prog Algoritmo62
+
+     real valor;
+     
+     imprima "\nDigite o valor do produto: R$ ";
+     leia valor;
+
+     imprima "\nO novo valor com um desconto de 9% e: R$ ", valor * 0.91;
+
+     imprima "\n\n";
+fimprog

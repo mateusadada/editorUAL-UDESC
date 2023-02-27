@@ -1,0 +1,38 @@
+#LAB 3 - Exercícios
+#Exercício 1
+
+prog Lab3Exercicio1
+
+     real A, B, C;
+     imprima "\nInforme um numero real: ";
+     leia A;
+     imprima "\nInforme outro numero real: ";
+     leia B;
+     imprima "\nInforme outro numero real: ";
+     leia C;
+     A <- abs(A);
+     B <- abs(B);
+     C <- abs(C);
+                                      
+     se((A < B + C) && (B < A + C) && (C < A + B))
+     {
+           se((A == B) && (B == C))
+           {
+           imprima "\nEh um triangulo equilatero (lados iguais)";
+           }
+                   se((A <> B) && (A <> C) && (B <> C))
+                   {
+                   imprima "\nEh um triangulo escaleno (lados diferentes)";
+                   }
+                           se(((A == B) && (A <> C)) || ((A == C) && (A <> B)) || ((B == C) && (B <> A)))
+                           {
+                           imprima "\nEh um triangulo isosceles (2 lado iguais)";
+                           }
+     }
+     senao
+     {
+     imprima "\nNAO eh um triangulo";
+     }
+     imprima "\n\n";
+
+fimprog

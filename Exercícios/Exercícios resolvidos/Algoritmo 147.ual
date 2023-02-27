@@ -1,0 +1,95 @@
+#Algoritmo 147
+
+prog Algoritmo147
+
+     int prato, sobremesa, bebida, P11, P12, P13, P14, S21, S22, S23, S24, B31, B32, B33, B34;
+     string prato1, sobremesa1, bebida1;
+          
+     imprima "\n\t***PRATO***";
+     imprima "\n\nvegetariano 180cal (P11)";
+     imprima "\npeixe 230cal (P12)";
+     imprima "\nfrango 250cal (P13)";
+     imprima "\ncarne 350cal (P14)";
+     imprima "\nINFORME O SEU PRATO (CODIGO): ";
+     leia prato1;
+     
+     se(prato1 == "P11")
+     {
+     prato <- 180;
+     }
+     
+     se(prato1 == "P12")
+     {
+     prato <- 230;
+     }
+     
+     se(prato1 == "P13")
+     {
+     prato <- 250;
+     }
+     
+     se(prato1 == "P14")
+     {
+     prato <- 350;
+     }
+              
+     imprima "\n\t***SOBREMESA***";
+     imprima "\n\nabacaxi 75cal (S21)";
+     imprima "\nsorvete 110cal (S22)";
+     imprima "\nmousse 170cal (S23)";
+     imprima "\nchocolate 200cal (S24)";
+     imprima "\nINFORME A SUA SOBREMESA (CODIGO): ";
+     leia sobremesa1;
+     
+     se(sobremesa1 == "S21")
+     {
+     sobremesa <- 75;
+     }
+     
+     se(sobremesa1 == "S22")
+     {
+     sobremesa <- 110;
+     }
+     
+     se(sobremesa1 == "S23")
+     {
+     sobremesa <- 170;
+     }
+     
+     se(sobremesa1 == "S24")
+     {
+     sobremesa <- 200;
+     }
+     
+     imprima "\n\t***BEBIDA***";
+     imprima "\n\ncha 20cal (B31)";
+     imprima "\nlaranja 70cal (B32)";
+     imprima "\nmelao 100cal (B33)";
+     imprima "\nrefrigerante 65cal (B34)";
+     imprima "\nINFORME A SUA BEBIDA (CODIGO): ";
+     leia bebida1;
+     
+     se(bebida1 == "B31")
+     {
+     bebida <- 20;
+     }
+     
+     se(bebida1 == "B32")
+     {
+     bebida <- 70;
+     }
+     
+     se(bebida1 == "B33")
+     {
+     bebida <- 100;
+     }
+     
+     se(bebida1 == "B34")
+     {
+     bebida <- 65;
+     }
+
+     imprima "\n\nTotal de calorias da refeicao: ", (prato + sobremesa + bebida), " cal";
+     
+     imprima "\n\n";
+fimprog

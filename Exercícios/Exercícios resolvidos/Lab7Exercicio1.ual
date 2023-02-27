@@ -1,0 +1,28 @@
+#Escrever um algoritmo que lê um valor em reais e calcular qual o menor numero possivel de notas de 100, 50, 10, 5 e 1 em que o valor lido
+#pode ser decomposto. Escrever o valor lido e a relação de notas necessarias.
+
+prog Lab7Exercicio1
+
+     int valorconvertido, nota100, nota50, nota10, nota5, nota1;
+     real valorinicial;
+     
+     imprima "\nDesconsidere numero fracionado";
+     imprima "\nDigite um valor em reais: R$ ";
+     leia valorinicial;
+     valorconvertido <- realint(valorinicial);
+     
+     nota100 <- valorconvertido div 100;
+     nota50 <- (valorconvertido % 100) div 50;
+     nota10 <- (valorconvertido % 50) div 10;
+     nota5 <- (valorconvertido % 10) div 5;
+     nota1 <- (valorconvertido % 5) div 1;
+     
+     imprima "\nPara R$ ", formatar(valorinicial,2), " reais sao necessarios:";
+     imprima "\nNotas de 100: ", nota100;
+     imprima "\nNotas de 50: ", nota50;
+     imprima "\nNotas de 10: ", nota10;
+     imprima "\nNotas de 5: ", nota5;
+     imprima "\nNotas de 1: ", nota1;    
+     
+     imprima "\n\n";
+fimprog

@@ -1,0 +1,34 @@
+prog Algoritmo135
+
+     int idade;
+     string ClasseEleitoral;
+     
+     imprima "\nDigite a idade da pessoa: ";
+     leia idade;
+     
+     se(idade <= 0)
+     {
+     imprima "\nDigite uma idade valida!";
+     }
+     
+     senao
+     {
+          se(idade < 16)
+          {
+          imprima "\nClasse eleitoral: nao-eleitor";
+          }
+          
+          se((idade >= 18) && (idade <= 65))
+          {
+          imprima "\nClasse eleitoral: obrigatorio";
+          }
+          
+          se((idade >= 16) && (idade < 18) || (idade > 65))
+          {
+          imprima "\nClasse eleitoral: facultativo";
+          }
+     }
+     
+     imprima "\n\n";
+
+fimprog     

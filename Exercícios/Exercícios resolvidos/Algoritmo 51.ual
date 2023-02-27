@@ -1,0 +1,12 @@
+prog Algoritmo51
+
+     real raio;
+     
+     imprima "\nDigite o raio de um circulo: ";
+     leia raio;
+     
+     imprima "\nPerimetro: ", formatar(2 * pi * raio,2);
+     imprima "\nArea: ", formatar(pi * (raio**2),2);
+
+     imprima "\n\n";
+fimprog

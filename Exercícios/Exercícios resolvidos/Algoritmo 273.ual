@@ -1,0 +1,43 @@
+prog Algoritmo273
+
+     int numconsumidor, kwh, tipo, media, custo;
+     
+     numconsumidor <- 1;
+     
+     
+     imprima "\n";
+     
+     enquanto (numconsumidor <> 0)
+     {
+           imprima "Digite o numero do consumidor: ";
+           leia numconsumidor;
+           
+           se (numconsumidor <> 0)
+           {
+                custo <- 0;
+                tipo <- 0;
+                
+                imprima "Quantidade de kWm consumidos durante o mes: ";
+                leia kwh;
+                
+                imprima "Tipo (codigo) do consumidor (1-residencial | 2-comercial | 3-industrial): ";
+                leia tipo;
+                                              
+                imprima "Custo total para o consumidor: R$ ", custo;
+                
+                imprima "\n\n";
+           }
+           
+           senao
+           {
+           }
+                
+     }
+     
+     imprima "\nTotal consumo tipo 1: ";
+     imprima "\nTotal consumo tipo 2: ";
+     imprima "\nTotal consumo tipo 3: ";
+     imprima "\nMedia de consumo dos tipos 1 e 2: ";
+     
+     imprima "\n\n";
+fimprog

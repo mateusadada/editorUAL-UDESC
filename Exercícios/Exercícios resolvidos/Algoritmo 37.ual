@@ -1,0 +1,16 @@
+prog Algoritmo37
+
+     int numero1, numero2, produto;
+     
+     imprima "\nDigite um numero inteiro: ";
+     leia numero1;
+     
+     imprima "\nDigite outro numero inteiro: ";
+     leia numero2;
+     
+     produto <- numero1 * numero2;
+     
+     imprima "\nProduto: ", produto;
+
+     imprima "\n\n";
+fimprog

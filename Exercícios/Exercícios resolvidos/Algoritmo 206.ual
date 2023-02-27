@@ -1,0 +1,37 @@
+prog Algoritmo206
+
+     int i, repeticacao, numero, maior, menor, auxiliar, comparacao;
+     
+     imprima "\nInforme a quantidade de numeros que se deseja digitar: ";
+     leia repeticacao;
+     
+     imprima "Digite um numero: ";
+     leia comparacao;
+     
+     maior <- comparacao;
+     menor <- comparacao;
+     
+     para (i <- 2; i <= repeticacao; i++)
+     {
+          imprima "Digite um numero: ";
+          leia numero;
+          
+          se (numero > maior)
+          {
+               auxiliar <- numero;
+               numero <- maior;
+               maior <- auxiliar;
+          }
+          
+          se (numero < menor)
+          {
+               auxiliar <- numero;
+               numero <- menor;
+               menor <- auxiliar;
+          }
+     }
+
+     imprima "\nMaior: ", maior;
+     imprima "\nMenor: ", menor;
+     imprima "\n\n";
+fimprog

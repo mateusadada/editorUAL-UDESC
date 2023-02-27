@@ -1,0 +1,11 @@
+prog Algoritmo176
+
+     int i;
+     
+     para (i <- 2; i <= 202; i <- i + 2)
+     {
+          imprima "\n", i;
+     }
+
+     imprima "\n\n";
+fimprog

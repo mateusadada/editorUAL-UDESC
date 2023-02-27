@@ -1,0 +1,13 @@
+prog Algoritmo34
+
+     int numero;
+     
+     imprima "\nDigite um numero inteiro: ";
+     leia numero;
+     
+     imprima "\nNumero informado: ", numero;
+     imprima "\nSucessor: ", numero + 1;
+     imprima "\nAntecessor: ", numero - 1;
+
+     imprima "\n\n";
+fimprog

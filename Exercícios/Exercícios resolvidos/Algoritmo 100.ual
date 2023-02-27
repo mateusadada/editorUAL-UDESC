@@ -1,0 +1,20 @@
+#Algoritmo 100
+#Ler um número inteiro de 4 casas e imprimir se é ou não múltiplo de quatro o número formado pelos algarismos que estão nas casas das unidades de milhar e das centenas.
+
+prog Algoritmo100
+
+     int num, divisao;
+     imprima "\nInforme um numero inteiro com 4 algarismo: ";
+     leia num;
+     divisao <- num div 100;
+     se (divisao % 4 == 0)
+     {
+     imprima "\nO numero dos algarismos nas casas das unidades de milhar e das centenas e multiplo de quatro: ", divisao;
+     }
+     se (divisao % 4 <> 0)
+     {
+     imprima "\nO numero dos algarismos nas casas das unidades de milhar e das centenas NAO e multiplo de quatro: ", divisao;
+     }
+     imprima "\n\n";
+     
+fimprog     

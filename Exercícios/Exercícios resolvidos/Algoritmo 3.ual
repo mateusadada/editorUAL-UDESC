@@ -1,0 +1,9 @@
+prog Algoritmo3
+
+     imprima "\n1. Pegue um banquinho/escada.";
+     imprima "\n2. Retire a lampada anterior, girando no sentido anti-horario.";
+     imprima "\n3. Coloque a nova lampada, girando no sentido horario.";
+     imprima "\n4. Descarte a lampada antiga no lixo correspondente.";
+
+     imprima "\n\n";
+fimprog

@@ -1,0 +1,31 @@
+#LAB 3 - Exercícios
+#Exercício 3
+
+prog Lab3Exercicio3
+
+     real SaldoMedio, ValorCredito;
+     imprima "\nInforme o saldo medio do cliente: ";
+     leia SaldoMedio;
+     
+     se(SaldoMedio >= 601.0)
+     {
+     ValorCredito <- SaldoMedio * 0.4;
+     }
+          se(SaldoMedio >= 401.0 && SaldoMedio <= 600.0)
+          {
+          ValorCredito <- SaldoMedio * 0.3;
+          }
+                se(SaldoMedio >= 201.0 && SaldoMedio <= 400.0)
+                {
+                ValorCredito <- SaldoMedio * 0.2;
+                }
+                      se(SaldoMedio < 201.0)
+                      {
+                      ValorCredito <- 0.0;
+                      }
+          
+     imprima "\nSaldo medio: R$ ", formatar(SaldoMedio,2), " reais"; 
+     imprima "\nO credito especial para o cliente eh: R$ ", formatar(ValorCredito,2), " reais";
+     imprima "\n\n";
+     
+fimprog

@@ -1,0 +1,57 @@
+prog Algoritmo141
+
+     string nome1, nome2, nome3, auxiliar2;
+     int pontos1, pontos2, pontos3, auxiliar;
+     
+     imprima "\nDigite o nome do competidor: ";
+     leia nome1;
+     imprima "Digite a quantidade de pontos desse competidor: ";
+     leia pontos1;
+     
+     imprima "\nDigite o nome do competidor: ";
+     leia nome2;
+     imprima "Digite a quantidade de pontos desse competidor: ";
+     leia pontos2;
+     
+     imprima "\nDigite o nome do competidor: ";
+     leia nome3;
+     imprima "Digite a quantidade de pontos desse competidor: ";
+     leia pontos3;
+     
+     se(pontos1 > pontos2)
+     {
+     auxiliar <- pontos1;
+     pontos1 <- pontos2;
+     pontos2 <- auxiliar;
+     auxiliar2 <- nome1;
+     nome1 <- nome2;
+     nome2 <- auxiliar2;
+     }
+     
+     se(pontos1 > pontos3)
+     {
+     auxiliar <- pontos1;
+     pontos1 <- pontos3;
+     pontos3 <- auxiliar;
+     auxiliar2 <- nome1;
+     nome1 <- nome3;
+     nome3 <- auxiliar2;
+     }   
+     
+     se(pontos2 > pontos3)
+     {
+     auxiliar <- pontos2;
+     pontos2 <- pontos3;
+     pontos3 <- auxiliar;
+     auxiliar2 <- nome2;
+     nome2 <- nome3;
+     nome3 <- auxiliar2;
+     }
+     
+     imprima "\nVencedor: ", nome3, " com ", pontos3, " pontos";
+     imprima "\nSegundo colocado: ", nome2, " com ", pontos2, " pontos";
+     imprima "\nPrimeiro colocado: ", nome1, " com ", pontos1, " pontos";
+     
+     imprima "\n\n";
+     
+fimprog

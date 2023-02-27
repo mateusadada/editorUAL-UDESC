@@ -1,0 +1,16 @@
+prog Algoritmo48
+
+     real salariominimo, quilowatts;
+     
+     imprima "\nDigite o salario minimo: R$ ";
+     leia salariominimo;
+     
+     imprima "Digite os quilowatts gastos pela residencia: ";
+     leia quilowatts;
+     
+     imprima "\nCada quilowatts custa R$ ", formatar((salariominimo * 1/7)/100,2);
+     imprima "\nPara pagar: R$ ", formatar(((salariominimo * 1/7)/100)*quilowatts,2);
+     imprima "\nDesconto de 10%: R$ ", formatar((((salariominimo * 1/7)/100)*quilowatts)*0.9,2);
+     
+     imprima "\n\n";
+fimprog

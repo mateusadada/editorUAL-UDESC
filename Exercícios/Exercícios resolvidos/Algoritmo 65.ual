@@ -1,0 +1,16 @@
+prog Algoritmo65
+
+     real raio, altura, volume;
+     
+     imprima "\nDigite o raio da lata de oleo: ";
+     leia raio;
+     
+     imprima "Digite a altura da lata de oleo: ";
+     leia altura;
+     
+     volume <- (pi * (raio**2) * altura);
+
+     imprima "\nO volume da lata de oleo e: ", formatar(volume,2);
+
+     imprima "\n\n";
+fimprog

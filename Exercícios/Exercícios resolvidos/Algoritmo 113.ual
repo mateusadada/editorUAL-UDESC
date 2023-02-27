@@ -1,0 +1,21 @@
+#Algoritmo 113
+#Entrar com dois números e imprimi-los em ordem crescente (suponha números diferentes).
+
+prog Algoritmo113
+
+     int num1, num2;
+     imprima "\nInforme um numero inteiro: ";
+     leia num1;
+     imprima "\nInforme outro numero inteiro: ";
+     leia num2;
+     se (num1 > num2)
+     {
+     imprima "\nOrdem crescente: ", num2, " e ", num1;
+     }
+     se (num1 < num2)
+     {
+     imprima "\nOrdem crescente: ", num1, " e ", num2;
+     }
+     imprima "\n\n";
+
+fimprog

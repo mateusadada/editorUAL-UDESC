@@ -1,0 +1,18 @@
+prog Algoritmo250
+
+     int i, i2;
+          
+     para (i <- 1; i <= 10; i++)
+     {
+          imprima "\nTabuada do ", i;
+          
+          para (i2 <- 1; i2 <= 10; i2++)
+          {
+                imprima "\n", i, " x ", i2, " = ", i * i2;
+          }
+          
+          imprima "\n";
+     }
+
+     imprima "\n\n";
+fimprog

@@ -1,0 +1,16 @@
+prog Algoritmo36
+
+     int numero1, numero2, soma;
+     
+     imprima "\nDigite um numero inteiro: ";
+     leia numero1;
+     
+     imprima "\nDigite outro numero inteiro: ";
+     leia numero2;
+     
+     soma <- numero1 + numero2;
+     
+     imprima "\nSoma: ", soma;
+
+     imprima "\n\n";
+fimprog

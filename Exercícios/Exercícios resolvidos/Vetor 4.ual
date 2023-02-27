@@ -1,0 +1,22 @@
+prog vetor4
+
+   int i, valor[5], soma, somatotal;
+   
+   soma <- 0;
+   somatotal <- 0;
+   
+   para (i <- 0; i < 5; i++)
+   {
+      valor[i] <- soma + 2;
+      soma <- valor[i];
+   }  
+         
+   para (i <- 0; i < 5; i++)
+   {
+      somatotal <- somatotal + valor[i];   
+   }
+   
+   imprima "\nSoma total dos valores: ", somatotal;
+
+   imprima "\n\n";
+fimprog

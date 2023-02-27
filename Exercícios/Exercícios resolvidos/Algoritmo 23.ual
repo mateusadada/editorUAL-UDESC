@@ -1,0 +1,11 @@
+prog Algoritmo23
+
+     int numero;
+     
+     imprima "\nDigite um numero de tres casas: ";
+     leia numero;
+     
+     imprima "\nAlgarismo da casa das dezenas: ", (numero div 10) % 10;
+
+     imprima "\n\n";
+fimprog

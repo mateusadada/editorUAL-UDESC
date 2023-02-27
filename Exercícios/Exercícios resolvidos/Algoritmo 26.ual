@@ -1,0 +1,15 @@
+prog Algoritmo26
+
+     int data;
+     
+     imprima "\nDigite data no formato DDMMAA: ";
+     leia data;
+     
+     imprima "\nDIA: ", data div 10000;
+     imprima "\nMES: ", (data div 100) % 100;
+     imprima "\nANO: ", data % 100;
+     
+     imprima "\n\nDATA NO FORMATO MMDDAA: ", (data div 100) % 100, data div 10000, data % 100;
+
+     imprima "\n\n";
+fimprog

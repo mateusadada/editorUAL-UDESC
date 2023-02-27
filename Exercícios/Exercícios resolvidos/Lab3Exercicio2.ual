@@ -1,0 +1,28 @@
+#LAB 3 - Exercícios
+#Exercício 2
+
+prog Lab3Exercicio2
+
+     real altura, idealhomem, idealmulher;
+     string sexo;
+     imprima "\nInforme a altura da pessoa: ";
+     leia altura;
+     imprima "\nInforme o sexo da pessoa (homem ou mulher): ";
+     leia sexo;
+     
+     idealhomem <- (72.7 * altura) - 58;
+     idealmulher <- (62.1 * altura) - 44.7;
+     
+     se(sexo == "homem")
+     {
+     imprima "\nPeso ideal do homem: ", formatar(idealhomem,2), " kg";
+     }
+     senao
+     {
+     imprima "\nPeso ideal da mulher: ", formatar(idealmulher,2), " kg";
+     }
+     
+     imprima "\n\n";
+     
+fimprog
+     

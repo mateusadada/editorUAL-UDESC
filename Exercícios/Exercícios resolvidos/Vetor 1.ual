@@ -1,0 +1,14 @@
+prog vetor1
+
+     int i, numeros[5];
+     
+     para (i <- 0; i < 5; i++)
+     {   numeros[i] <- 0;
+     }
+     
+     para (i <- 0; i < 5; i++)
+     {   imprima "\n", numeros[i];
+     }
+
+     imprima "\n\n";
+fimprog

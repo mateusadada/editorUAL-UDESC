@@ -1,0 +1,11 @@
+prog Algoritmo175
+
+     int i;
+     
+     para (i <- 100; i >= 1; i--)
+     {
+          imprima "\n", i;
+     }
+
+     imprima "\n\n";
+fimprog

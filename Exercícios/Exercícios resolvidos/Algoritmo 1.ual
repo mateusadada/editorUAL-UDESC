@@ -1,0 +1,12 @@
+prog Algoritmo1
+
+     imprima "\n1. Pegue uma frigideira.";
+     imprima "\n2. Adicione oleo.";
+     imprima "\n3. Ligue o gas.";
+     imprima "\n4. Pegue um ovo, quebre a casca e coloque na frigideira quando o oleo estiver quente.";
+     imprima "\n5. Mexa de acordo com a preferencia (mais mole ou mexido).";
+     imprima "\n6. Desligue o gas.";
+     imprima "\n7. Esta pronto.";
+
+     imprima "\n\n";
+fimprog

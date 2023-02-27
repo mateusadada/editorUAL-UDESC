@@ -1,0 +1,13 @@
+prog Algoritmo45
+
+     int numero;
+     
+     imprima "\nDigite um numero inteiro: ";
+     leia numero;
+     
+     imprima "\nNumero: ", numero;
+     imprima "\nQuadrado: ", numero ^ 2;
+     imprima "\nRaiz quadrada: ", raiz(numero);
+
+     imprima "\n\n";
+fimprog

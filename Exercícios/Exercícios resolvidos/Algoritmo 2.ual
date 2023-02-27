@@ -1,0 +1,9 @@
+prog Algoritmo2
+
+     imprima "\n1. Pegue o chiclete.";
+     imprima "\n2. Tire a embalagem.";
+     imprima "\n3. Coloque o chiclete na boca e mastigue.";
+     imprima "\n4. Jogue a embalagem no lixo correspondente.";
+
+     imprima "\n\n";
+fimprog

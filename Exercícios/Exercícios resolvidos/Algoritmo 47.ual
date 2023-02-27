@@ -1,0 +1,15 @@
+prog Algoritmo47
+
+     int numero, invertido1, invertido2, invertido3;
+     
+     imprima "\nDigite um numero de 3 casas: ";
+     leia numero;
+     
+     invertido1 <- (numero % 10);
+     invertido2 <- (numero div 10) % 10;
+     invertido3 <- (numero div 100);
+                   
+     imprima "\nInvertido: ", invertido1, invertido2, invertido3;
+
+     imprima "\n\n";
+fimprog

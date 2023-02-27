@@ -1,0 +1,19 @@
+prog Algoritmo35
+
+     string nome, endereco, telefone;
+     
+     imprima "\nDigite seu nome: ";
+     leia nome;
+     
+     imprima "Digite seu endereco: ";
+     leia endereco;
+     
+     imprima "Digite seu telefone: ";
+     leia telefone;
+     
+     imprima "\nSeu nome: ", nome;
+     imprima "\nSeu endereco: ", endereco;
+     imprima "\nSeu telefone: ", telefone;
+
+     imprima "\n\n";
+fimprog

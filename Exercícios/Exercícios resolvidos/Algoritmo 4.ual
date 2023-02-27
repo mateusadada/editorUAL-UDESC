@@ -1,0 +1,9 @@
+prog Algoritmo4
+
+     imprima "\n1. Arrumar a casa.";
+     imprima "\n2. Fazer comida.";
+     imprima "\n3. Estudar.";
+     imprima "\n4. Lazer.";
+
+     imprima "\n\n";
+fimprog

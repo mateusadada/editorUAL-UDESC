@@ -1,0 +1,13 @@
+prog Algoritmo81
+
+     int numero, inverso, novonumero;
+         
+     imprima "\nDigite o numero da conta corrente de tres digitos: ";
+     leia numero;
+     
+     inverso <- ((numero % 10)*100) + ((numero % 100) - (numero % 10)) + (numero div 100) + numero;
+     
+     imprima "\nDigito verificador: ", ((inverso div 100) + (inverso % 10)*3 + (inverso div 10 - (inverso div 100)*10)*2) % 10;
+        
+     imprima "\n\n";
+fimprog

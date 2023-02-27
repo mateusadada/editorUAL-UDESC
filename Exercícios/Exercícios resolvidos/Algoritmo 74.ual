@@ -1,0 +1,14 @@
+prog Algoritmo74
+
+     real salariominimo, salariopessoa;
+     
+     imprima "\nDigite o salario minimo: R$ ";
+     leia salariominimo;
+     
+     imprima "Digite o salario de uma pessoa: R$ ";
+     leia salariopessoa;
+
+     imprima "\nA pessoa ganha ", formatar (salariopessoa / salariominimo,1), " salarios minimos";
+
+     imprima "\n\n";
+fimprog

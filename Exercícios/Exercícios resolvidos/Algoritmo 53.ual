@@ -1,0 +1,17 @@
+prog Algoritmo53
+
+     real ladoA, ladoB, ladoC;
+     
+     imprima "\nDigite um lado do paralelepipedo: ";
+     leia ladoA;
+     
+     imprima "Digite outro lado do paralelepipedo: ";
+     leia ladoB;
+     
+     imprima "Digite outro lado do paralelepipedo: ";
+     leia ladoC;     
+
+     imprima "\nDiagonal: ", formatar(raiz((ladoA ** 2) + (ladoB ** 2) + (ladoC ** 2)),2);
+
+     imprima "\n\n";
+fimprog

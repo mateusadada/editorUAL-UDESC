@@ -1,0 +1,27 @@
+prog Algoritmo76
+
+     int numero;
+     
+     imprima "\nDigite um numero entre 0 e 60: ";
+     leia numero;
+     
+     se ((numero < 0) || (numero > 60))
+     {
+          imprima "\nERRO! Eh permitido um numero entre 0 e 60";
+     }
+     
+     senao
+     {
+          se (numero == 60)
+          {
+               imprima "\nO sucessor eh 0";
+          }
+          
+          senao
+          {
+               imprima "\nO sucesso eh ", numero + 1;
+          }
+     }
+
+     imprima "\n\n";
+fimprog

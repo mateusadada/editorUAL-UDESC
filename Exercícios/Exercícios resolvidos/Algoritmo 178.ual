@@ -1,0 +1,11 @@
+prog Algoritmo178
+
+     int i;
+     
+     para (i <- 1; i <= 20; i++)
+     {
+          imprima "\nO quadrado do ", i, " eh ", i ^ 2;
+     }
+
+     imprima "\n\n";
+fimprog

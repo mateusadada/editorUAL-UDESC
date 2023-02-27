@@ -1,0 +1,27 @@
+#Algoritmo 101
+#Construir um algoritmo que indique se o número digitado está compreendido entre 20 e 90 ou não
+
+prog Algoritmo101
+
+     int num;
+     imprima "\nInforme um numero inteiro: ";
+     leia num;
+     se (num >= 20)
+     {
+        se (num <= 90)
+        {
+        imprima "O numero digitado esta entre 20 e 90";
+        }
+     }
+     se (num < 20)
+     {
+     imprima "O numero digitado e MENOR que 20";
+     }
+     se (num > 90)
+     {
+     imprima "O numero digitado e MAIOR que 90";
+     }
+     imprima "\n\n";
+
+     
+fimprog

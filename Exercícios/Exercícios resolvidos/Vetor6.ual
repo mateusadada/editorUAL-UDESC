@@ -1,0 +1,18 @@
+prog Vetor6
+
+   int i, A[8], B[8], C[8];
+   
+   para (i <- 0; i < 8; i++)
+   {
+      A[i] <- i + 10;
+      B[i] <- i + 1;
+      C[i] <- A[i] + B[i];
+   }
+   
+   para (i <- 0; i < 8; i++)
+   {
+      imprima "\nO vetor C da posicao ", i, " eh ", C[i];
+   }
+
+   imprima "\n\n";
+fimprog

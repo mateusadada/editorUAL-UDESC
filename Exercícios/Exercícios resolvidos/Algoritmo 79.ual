@@ -1,0 +1,22 @@
+prog Algoritmo79
+
+     real aplicacao, taxa, rendimento;
+     int meses;
+     
+     imprima "\nDigite o valor que eh aplicado mensalmente: ";
+     leia aplicacao;
+     
+     imprima "A taxa ao mes: ";
+     leia taxa;
+     
+     imprima "O numero de meses: ";
+     leia meses;
+     
+     rendimento <- aplicacao * ((1 + taxa)**meses - 1)/taxa; 
+
+     imprima "\nAplicacao: R$ ", formatar(aplicacao * meses,2);
+     imprima "\nRendimento: R$ ", formatar(rendimento,2);
+     imprima "\nDiferenca: R$ ", formatar((rendimento - (aplicacao * meses)),2);
+
+     imprima "\n\n";
+fimprog

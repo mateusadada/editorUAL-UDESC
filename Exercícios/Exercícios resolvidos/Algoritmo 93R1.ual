@@ -1,0 +1,19 @@
+#Algoritmo 93
+#Entrar com um número e imprimir a raiz quadrada do número caso ele seja positivo e o quadrado do número caso ele seja negativo
+
+prog Algoritmo93R1
+
+     real num;
+     imprima "\nInforme um numero: ";
+     leia num;
+     se (num >= 0.0)
+     {
+     imprima "\nA raiz quadrada do numero e: ", formatar(raiz(num),2);
+     }
+     senao
+     {
+     imprima "\nO quadrado do numero e: ", formatar(num**2,2);
+     }
+     imprima "\n\n";
+     
+fimprog       

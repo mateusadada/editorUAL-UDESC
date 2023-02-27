@@ -1,0 +1,14 @@
+prog Algoritmo43
+
+     int numero;
+     real logaritmo;
+     
+     imprima "\nDigite um numero: ";
+     leia numero;
+     
+     logaritmo <- log(numero) / log(10);
+     
+     imprima "\nLogaritmo do numero na base 10: ", formatar(logaritmo,2);
+
+     imprima "\n\n";
+fimprog

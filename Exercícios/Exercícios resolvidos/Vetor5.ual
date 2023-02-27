@@ -1,0 +1,20 @@
+prog Vetor5
+
+   int i;
+   real valor[5], soma;
+   
+   soma <- 0.0;
+   imprima "\n";
+   
+   para (i <- 0; i < 5; i++)
+   {
+      imprima "Digite um numero real: ";
+      leia valor[i];
+      
+      soma <- soma + valor[i];
+   }
+
+   imprima "\nA media dos numeros informados eh: ", soma/5;
+
+   imprima "\n\n";
+fimprog

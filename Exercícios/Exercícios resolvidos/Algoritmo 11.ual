@@ -1,0 +1,6 @@
+prog Algoritmo11
+
+     imprima "\nAprendendo Algoritmo!!!";     
+
+     imprima "\n\n";
+fimprog

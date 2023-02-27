@@ -1,0 +1,16 @@
+prog Vetor2
+
+   int valor[10], i;
+   
+   para (i <- 0; i < 10; i++)
+   {
+      valor[i] <- i + 1;
+   }
+   
+   para (i <- 0; i < 10; i++)
+   {
+      imprima "\nVetor ", i, ": ", valor[i];
+   }
+
+   imprima "\n\n";
+fimprog

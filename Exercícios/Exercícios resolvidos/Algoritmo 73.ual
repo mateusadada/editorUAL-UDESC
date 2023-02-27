@@ -1,0 +1,13 @@
+prog Algoritmo73
+
+     real numero;
+     
+     imprima "\nDigite um numero decimal: ";
+     leia numero;
+     
+     imprima "\nParte inteira: ", (numero div realint(numero - 0.4999)) * realint(numero - 0.4999);
+     imprima "\nParte fracionaria: ", formatar((numero / realint(numero - 0.4999)/10),3);
+     imprima "\nNumero arredondado: ", realint(numero + 0.00001);
+
+     imprima "\n\n";
+fimprog

@@ -1,0 +1,17 @@
+prog Algoritmo69
+
+     int numerador, denominador;
+     real decimal;
+     
+     imprima "\nDigite o valor do numerador: ";
+     leia numerador;
+     
+     imprima "Digite o valor do denominador: ";
+     leia denominador;
+     
+     decimal <- numerador / denominador;
+
+     imprima "\nNumero decimal: ", formatar(decimal,2);
+
+     imprima "\n\n";
+fimprog

@@ -1,0 +1,20 @@
+prog Vetor7
+
+   int i;
+   real valor[5];
+   
+   imprima "\n";
+   
+   para (i <- 0; i < 5; i++)
+   {
+      imprima "Digite um numero real: ";
+      leia valor[i];
+   }
+   
+   para (i <- 4; i >= 0; i--)
+   {
+      imprima "\nO vetor da posicao ", i, " eh ", valor[i];
+   }
+
+   imprima "\n\n";
+fimprog

@@ -1,0 +1,20 @@
+#Algoritmo 99
+#Ler um número inteiro de 3 casas decimais e imprimir se o algarismo da casa das centenas é par ou ímpar.
+
+prog Algoritmo99
+
+     int num, divisao;
+     imprima "\nInforme um numero inteiro com 3 algarismo: ";
+     leia num;
+     divisao <- num div 100;
+     se (divisao % 2 == 0)
+     {
+     imprima "\nO numero e par: ", divisao;
+     }
+     se (divisao % 2 <> 0)
+     {
+     imprima "\nO numero e impar: ", divisao;
+     }
+     imprima "\n\n";
+     
+fimprog

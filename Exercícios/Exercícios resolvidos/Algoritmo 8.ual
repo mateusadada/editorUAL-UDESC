@@ -1,0 +1,11 @@
+prog Algoritmo8
+
+     imprima "\n\t***COMO JOGAR O JOGO DA FORCA***";
+     imprima "\nA palavra oculta esta relacionada com a dica ", "Arvore.";
+     imprima "\nO tamanho da palavra oculta (quantidade de letras) esta representado pelos tracos.";
+     imprima "\nDiga uma letra. Se a letra existir na palavra, a letra sera exibida. Caso contrario, seu bonequinho ficara cada vez mais preso.";
+     imprima "\nA cada erro uma parte do corpo do bonequinho e desenhada: cabeca, tronco, braco direito, braco esquerdo, perna direita e perna esquerda.";
+     imprima "\nO objetivo e descobrir a palavra oculta antes que o bonequinho fique completamente desenhado.";
+
+     imprima "\n\n";
+fimprog

@@ -1,0 +1,19 @@
+prog Algoritmo68
+
+     int A, B, auxiliar;
+     
+     imprima "\nDigite um valor para A: ";
+     leia A;
+     
+     imprima "Digite um valor para B: ";
+     leia B;
+     
+     auxiliar <- A;
+     A <- B;
+     B <- auxiliar;
+
+     imprima "\nNovo valor de A: ", A;
+     imprima "\nNovo valor de B: ", B;
+
+     imprima "\n\n";
+fimprog

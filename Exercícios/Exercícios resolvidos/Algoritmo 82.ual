@@ -1,0 +1,14 @@
+prog Algoritmo82
+
+     int numero;
+     
+     imprima "\nDigite um numero inteiro: ";
+     leia numero;
+     
+     se (numero > 20)
+     {
+        imprima "\nMetade do numero: ", formatar(numero / 2,2);
+     }
+
+     imprima "\n\n";
+fimprog

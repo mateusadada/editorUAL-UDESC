@@ -1,0 +1,42 @@
+#LAB 4 - Exercício 1
+#Faça uma calculadora
+
+prog Lab4Exercicio1
+
+     real num1, num2;
+     string operacao;
+     imprima "\nInforme um numero real: ";
+     leia num1;
+     imprima "\nInforme outro numero real: ";
+     leia num2;
+     imprima "\nInforme o codigo da operacao que deseja realizar entre os dois numeros: soma (+), subtracao (-), multiplicacao (*), divisao (/) ou raiz (raiz): ";
+     leia operacao;
+         
+     se(operacao == "+")
+     {
+     imprima "\nA soma dos dois numeros eh: ", num1 + num2;
+     }   
+           
+     se(operacao == "-")
+     {
+     imprima "\nA subtracao dos dois numeros eh: ", num1 - num2;
+     }
+     
+     se(operacao == "*")
+     {
+     imprima "\nO produtos dos dois numeros eh: ", num1 * num2;
+     }
+     
+     se(operacao == "/")
+     {
+     imprima "\nA divisao dos dois numeros eh: ", num1 / num2;
+     }
+     
+     se(operacao == "raiz")
+     {
+     imprima "\nAs raizes dos dois numeros eh ", formatar(raiz(num1),2), " e ", formatar(raiz(num2),2), ", respectivamente";
+     }
+     
+        
+     imprima "\n\n";
+fimprog

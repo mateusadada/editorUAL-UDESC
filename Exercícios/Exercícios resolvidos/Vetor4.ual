@@ -1,0 +1,20 @@
+prog Vetor4
+
+   int valor[5], i, soma;
+   
+   para (i <- 0; i < 5; i++)
+   {
+      valor[i] <- (i + 1)*2;
+   }
+   
+   soma <- 0;
+   
+   para (i <- 0; i < 5; i++)
+   {
+      soma <- soma + valor[i];
+   }
+   
+   imprima "\nA soma dos vetores eh: ", soma; 
+    
+   imprima "\n\n";
+fimprog

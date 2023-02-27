@@ -1,0 +1,9 @@
+prog Algoritmo6
+
+     imprima "\n1. Pegue uma faca.";
+     imprima "\n2. Pegue a batata.";
+     imprima "\n3. Descasque a batata com a faca.";
+     imprima "\n4. Descarte os residuos no lixo correspondente.";     
+
+     imprima "\n\n";
+fimprog

@@ -1,0 +1,6 @@
+prog Algoritmo12
+
+     imprima "\nAprendendo Algoritmo!!!Com Anita e Guto";
+
+     imprima "\n\n";
+fimprog

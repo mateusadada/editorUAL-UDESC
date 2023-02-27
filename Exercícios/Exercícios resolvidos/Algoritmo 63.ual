@@ -1,0 +1,18 @@
+prog Algoritmo63
+
+     real ValorHora, INSS;
+     int NumeroAulas;
+     
+     imprima "\nDigite o valor da hora aula: R$ ";
+     leia ValorHora;
+     
+     imprima "Digite o numero de aulas dadas no mes: ";
+     leia NumeroAulas;
+     
+     imprima "Digite o percentual de desconto do INSS: ";
+     leia INSS;
+
+     imprima "\nSalario liquido: R$ ", (ValorHora * NumeroAulas) * ((100.0 - INSS)/100);
+
+     imprima "\n\n";
+fimprog

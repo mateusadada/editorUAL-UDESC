@@ -1,0 +1,12 @@
+prog Algoritmo75
+
+     int peso;
+     
+     imprima "\nDigite o peso da pessoa (parte inteira): ";
+     leia peso;
+
+     imprima "\nPeso da pessoa em gramas: ", peso * 1000;
+     imprima "\nNovo peso se engordar 12%: ", formatar ((peso * 1000) * 1.12,1);
+
+     imprima "\n\n";
+fimprog

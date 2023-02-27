@@ -1,0 +1,19 @@
+#Algoritmo 90
+#Entrar com um número e imprimi-lo caso seja maior que 20
+
+prog Algoritmo90R1
+
+     int num1;
+     imprima "\nInforme um numero inteiro: ";
+     leia num1;
+     se (num1 > 20)
+     {
+     imprima "\nO numero apresentado e maior que 20";
+     }
+     senao
+     {
+     imprima "\nO valor mencionado e menor que 20";
+     }
+     imprima "\n\n";
+     
+fimprog     

@@ -1,0 +1,15 @@
+prog Algoritmo72
+
+     real valor, juros;
+     
+     imprima "\nDigite o valor depositado: R$ ";
+     leia valor;
+     
+     imprima "Digite a taxa de juros: ";
+     leia juros;
+     
+     imprima "\nValor do rendimento: R$ ", formatar((valor * juros)/100,2);
+     imprima "\nValor total: R$ ", formatar(valor + ((valor * juros)/100),2);
+
+     imprima "\n\n";
+fimprog

@@ -1,0 +1,11 @@
+prog Algoritmo38
+
+     real numero;
+     
+     imprima "\nDigite um numero real: ";
+     leia numero;
+     
+     imprima "\nA terca parte do numero e: ", numero/3;
+
+     imprima "\n\n";
+fimprog

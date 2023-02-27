@@ -1,0 +1,28 @@
+#Algoritmo 116
+#Entrar com três números e imprimir o maior número (suponha números diferentes).
+
+prog Algoritmo116
+
+     int num1, num2, num3, maior;
+     imprima "\nInforme um numero inteiro: ";
+     leia num1;
+     imprima "\nInforme outro numero inteiro: ";
+     leia num2;
+     imprima "\nInforme outro numero inteiro: ";
+     leia num3;
+     se ((num1 > num2) && (num1 > num3))
+     {
+     maior <- num1;
+     }
+     se ((num2 > num1) && (num2 > num3))
+     {
+     maior <- num2;
+     }
+     se ((num3 > num1) && (num3 > num2))
+     {
+     maior <- num3;
+     }
+     imprima "\nO maior numero e: ", maior;
+     imprima "\n\n";
+     
+fimprog

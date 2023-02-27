@@ -1,0 +1,40 @@
+#Algoritmo 146
+#Fazer um algoritmo que leia o percurso em quilômetros, o tipo do carro e informe o consumo estimado de combustível, 
+#sabendo-se que um carro tipo A faz 12 km com um litro de gasolina, um tipo B faz 9 km e o tipo C, 8 km por litro.
+
+prog Algoritmo146
+
+     real KM;
+     string carro;
+     
+     imprima "\nInforme o percurso em quilometros: ";
+     leia KM;
+     
+     imprima "\nInforme o tipo de carro (A, B ou C): ";
+     leia carro;
+     
+     se((carro <> "A") && (carro <> "B") && (carro <> "C"))
+     {
+     imprima "\nNao foi informado corretamente o tipo do carro!";
+     }
+     
+     senao
+     {
+          se(carro == "A")
+          {
+          imprima "\nO consumo estimado de combustivel foi de ", formatar(KM/12,2), " litros";
+          }
+          
+          se(carro == "B")
+          {
+          imprima "\nO consumo estimado de combustivel foi de ", formatar(KM/9,2), " litros";
+          }
+          
+          se(carro == "C")
+          {
+          imprima "\nO consumo estimado de combustivel foi de ", formatar(KM/8,2), " litros";
+          }   
+     }
+     
+     imprima "\n\n";
+fimprog

@@ -1,0 +1,17 @@
+prog Algoritmo49
+
+     string nome;
+     
+     imprima "\nDigite um nome: ";
+     leia nome;
+     
+     imprima "\nTodo o nome: ", nome;
+     imprima "\nPrimeiro caractere: ", strprim(nome);
+     imprima "\nUltimo caractere: ", strult(nome);
+     imprima "\nDo primeiro ate o terceiro: ", strnprim(nome,3);
+     imprima "\nQuarto caractere: ", strelem(nome, 3);
+     imprima "\nTodos menos o primeiro: ", strresto(nome);
+     imprima "\nOs dois ultimos: ", strnresto(nome,4);
+
+     imprima "\n\n";
+fimprog

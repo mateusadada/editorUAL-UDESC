@@ -1,0 +1,36 @@
+prog extra
+
+     int numero, contador, contador2;
+     real soma;
+     
+     contador <- 0;
+     soma <- 1.0;
+     contador2 <- 0;
+     
+     imprima "\nDigite um numero inteiro e positivo: ";
+     leia numero;
+     
+     se (numero < 1)
+     {
+          imprima "\nFIM DO PROGRAMA";
+     }
+     
+     senao
+     {
+          faca
+          {
+               contador++;
+               contador2++;
+               se (contador <> 1)
+               {
+                    soma <- soma + 1/contador2;
+               }
+          }
+          enquanto (contador < numero)
+          
+     imprima "\nS: ", formatar(soma,2);
+     
+     }     
+
+     imprima "\n\n";
+fimprog

@@ -1,0 +1,24 @@
+#LAB 1 - Exercícios
+#Extra 2: Um hotel deseja fazer uma promoção especial de final de semana, concedendo um desconto de 25% na diária. Sendo informados, através do teclado,
+#o número de apartamentos do hotel e o valor da diária por apartamento para o final de semana completo, elabore um programa para calcular:
+#Valor promocional da diária;
+#Valor total a ser arrecadado caso a ocupação neste final de semana atinja 100%;
+#Valor total a ser arrecadado caso a ocupação neste final de semana atinja 70%;
+#Valor que o hotel deixará de arrecadar em virtude da promoção, caso a ocupação atinga 100%.
+
+prog EXTRA2
+
+     int apartamentos;
+     real diaria, promocional;
+     imprima "\nInforme a quantidade total de apartamentos: ";
+     leia apartamentos;
+     imprima "\nInforme o preco da diaria para o final de semana completo (sem o desconto): ";
+     leia diaria;
+     promocional <- diaria * 0.75;
+     imprima "\nValor promocional da diaria para o final de semana completo: R$ ", formatar(promocional,2), " reais";
+     imprima "\nValor total se a ocupacao atingir 100%: R$ ", formatar(promocional*apartamentos,2), " reais";
+     imprima "\nValor total se a ocupacao atingir 70%: R$ ", formatar((promocional*apartamentos)*0.7,2), " reais";
+     imprima "\nValor que o hotel deixara de arrecadar com 100% de ocupacao na promocao: R$ ", formatar(((apartamentos*diaria)-(promocional*apartamentos)),2), " reais";
+     imprima "\n\n";
+     
+fimprog

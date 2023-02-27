@@ -1,0 +1,20 @@
+prog Algoritmo5
+
+     imprima "\n\t***INGREDIENTES***";
+     imprima "\n- 2 xicaras (cha) de acucar.";
+     imprima "\n- 3 xicaras (cha) de farinha de trigo.";
+     imprima "\n- 4 colheres (sopa) de margarina.";
+     imprima "\n- 3 ovos.";
+     imprima "\n- 1 e 1/2 xicara (cha) de leite.";
+     imprima "\n- 1 colher (sopa) bem cheia de fermento em po.";
+
+     imprima "\n\n\t***MODO DE PREPARO***";
+     imprima "\n1. Bata as claras em neve e reserve.";
+     imprima "\n2. Misture as gemas, a margarina e o acucar ate obter uma massa homogenea.";
+     imprima "\n3. Acrescente o leite e a farinha de trigo aos poucos, sem parar de bater.";
+     imprima "\n4. Por ultimo, adicione as claras em neve e o fermento.";
+     imprima "\n5. Despeje a massa em uma forma grande de furo central untada e enfarinhada.";
+     imprima "\n6. Asse em forno medio 180 graus celsius, pre-aquecido, por aproximadamente 40 minutos ou ao furar o bolo com um garfo, este saia limpo.";
+
+     imprima "\n\n";
+fimprog

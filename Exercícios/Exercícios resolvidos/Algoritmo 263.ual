@@ -1,0 +1,20 @@
+prog Algoritmo263
+
+     int numero, contador;
+     
+     numero <- 1;
+     contador <- 0;
+     
+     imprima "\n";
+     
+     enquanto (numero > 0)
+     {
+              imprima "Digite um numero: ";
+              leia numero;
+              contador++;     
+     }
+     
+     imprima "\nQuantos numeros foram digitados: ", contador;
+
+     imprima "\n\n";
+fimprog

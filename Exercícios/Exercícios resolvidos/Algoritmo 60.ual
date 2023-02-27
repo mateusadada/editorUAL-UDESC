@@ -1,0 +1,14 @@
+prog Algoritmo60
+
+     real razao, primeirotermo;
+     
+     imprima "\nDigite o primeiro termo da PA: ";
+     leia primeirotermo;
+     
+     imprima "Digite a razao da PA: ";
+     leia razao;
+
+     imprima "\nDecimo termo da serie: ", formatar((primeirotermo + (10-1)*razao),2);
+
+     imprima "\n\n";
+fimprog

@@ -1,0 +1,20 @@
+prog Algoritmo266b
+
+     string nome;
+     
+     faca
+     {
+          imprima "\nDigite um nome (FIM encerra o programa): ";
+          leia nome;
+          
+          se (nome <> "FIM")
+          {
+               imprima "Primeiro caractere: ", strnprim(nome, 1);
+          }
+          
+          imprima "\n";
+     }
+     enquanto (nome <> "FIM")
+
+     imprima "\n";
+fimprog

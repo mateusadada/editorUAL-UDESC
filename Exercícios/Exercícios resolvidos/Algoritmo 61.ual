@@ -1,0 +1,16 @@
+prog Algoritmo61
+
+     real razao, primeirotermo, quintotermo;
+     
+     imprima "\nDigite a razao da PG: ";
+     leia razao;
+     
+     imprima "Digite o primeiro termo: ";
+     leia primeirotermo;
+     
+     quintotermo <- primeirotermo * (razao**(5-1));     
+
+     imprima "\nQuinto termo da serie: ", formatar(quintotermo,2);
+
+     imprima "\n\n";
+fimprog

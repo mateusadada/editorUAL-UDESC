@@ -1,0 +1,20 @@
+prog Algoritmo67
+
+     real valor, taxa, prestacao;
+     int tempo;
+     
+     imprima "\nDigite o valor da prestacao: R$ ";
+     leia valor;
+     
+     imprima "Digite a taxa: ";
+     leia taxa;
+     
+     imprima "Digite o tempo: ";
+     leia tempo;
+     
+     prestacao <- valor + (valor * (taxa/100) * tempo);
+
+     imprima "\nPrestacacao em atraso: R$ ", prestacao;
+
+     imprima "\n\n";
+fimprog

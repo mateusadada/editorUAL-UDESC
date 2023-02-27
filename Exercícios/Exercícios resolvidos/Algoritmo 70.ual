@@ -1,0 +1,11 @@
+prog Algoritmo70
+
+     real valor;
+     
+     imprima "\nDigite o valor gasto no restaurante: R$ ";
+     leia valor;
+
+     imprima "\nValor total com a gorjeta de 10%: R$ ", valor * 1.1;
+
+     imprima "\n\n";
+fimprog

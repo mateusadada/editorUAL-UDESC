@@ -1,0 +1,37 @@
+prog Algoritmo85
+
+     int max, numero1, numero2, numero3;
+     
+     imprima "\nDigite um numero: ";
+     leia numero1;
+     
+     imprima "Digite outro numero: ";
+     leia numero2;
+     
+     imprima "Digite outro numero: ";
+     leia numero3;
+     
+     se ((numero1 >= numero2) && (numero1 >= numero3))
+     {
+          max <- numero1;
+     }
+     
+     se ((numero2 >= numero1) && (numero2 >= numero3))
+     {
+          max <- numero2;
+     }
+     
+     se ((numero3 >= numero1) && (numero3 >= numero2))
+     {
+          max <- numero3;
+     }
+     
+     se (( numero1 == numero2) && (numero2 == numero3))
+     {
+          max <- numero1;
+     }
+     
+     imprima "\nMaior: ", max;
+
+     imprima "\n\n";
+fimprog

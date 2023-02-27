@@ -1,0 +1,7 @@
+prog Algoritmo10
+
+     imprima "\nComo o leao e a cabra, bem como a cabra e o pedaco de grama nao podem ficar sozinhos,";
+     imprima "\nBasta enviar os tres no mesmo bote.";
+
+     imprima "\n\n";
+fimprog

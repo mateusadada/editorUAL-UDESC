@@ -1,0 +1,17 @@
+prog Algoritmo80
+
+     int fitas;
+     real aluguel;
+     
+     imprima "\nDigite a quantidade de fitas que a locadora possui: ";
+     leia fitas;
+     
+     imprima "Digite o valor cobrado por aluguel da fita: R$ ";
+     leia aluguel;
+     
+     imprima "\nFaturamento anual da locadora: R$ ", formatar((fitas / 3) * aluguel,2);
+     imprima "\nValor ganho com multas no mes: R$ ", formatar((aluguel * 0.1) * (fitas / 10),2);
+     imprima "\nQuantidade de fitas que a locadora tera no final do ano: ", (fitas * 1.1) - (fitas * 0.98) + fitas;
+
+     imprima "\n\n";
+fimprog

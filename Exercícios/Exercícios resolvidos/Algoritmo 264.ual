@@ -1,0 +1,37 @@
+prog Algoritmo264
+
+     int numero, contador, soma;
+     
+     contador <- 0;
+     soma <- 0;
+     
+     imprima "\nDigite um numero: ";
+     leia numero;
+     
+     se (numero < 1)
+     {
+           imprima "\nDIGITE UM NUMERO POSITIVO!";
+     }
+     
+     senao
+     {
+          contador++;
+          soma <- soma + numero;
+          
+          enquanto (numero > 0)
+          {
+                imprima "Digite um numero: ";
+                leia numero;
+                
+                se (numero > 0)
+                {
+                     contador++;
+                     soma <- soma + numero;
+                }    
+          }
+          
+          imprima "A media dos numeros digitados: ", formatar(soma / contador,2);
+     }
+     
+     imprima "\n\n";
+fimprog

@@ -1,0 +1,13 @@
+prog Algoritmo64
+
+     real graus, fahrenheit;
+     
+     imprima "\nDigite a temperatura em graus centigrados: ";
+     leia graus;
+     
+     fahrenheit <- (9.0 * graus + 160.0)/5.0;    
+
+     imprima "\nA temperatura em Fahrenheit e: ", formatar(fahrenheit,2);
+
+     imprima "\n\n";
+fimprog

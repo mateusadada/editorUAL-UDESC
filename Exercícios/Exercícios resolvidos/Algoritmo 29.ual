@@ -1,0 +1,11 @@
+prog Algoritmo29
+
+     string nome;
+     
+     imprima "\nDigite seu nome: ";
+     leia nome;
+     
+     imprima "\nSeu nome: ", nome;
+
+     imprima "\n\n";
+fimprog

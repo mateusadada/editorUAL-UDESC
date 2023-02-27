@@ -1,0 +1,19 @@
+#Algoritmo 96
+#Entrar com um número e informar se ele é divisível por 3 e por 7.
+
+prog Algoritmo96R1
+
+     int num;
+     imprima "\nInforme um numero: ";
+     leia num;
+     se ((num % 3 == 0) && (num % 7 == 0))
+     {
+        imprima "\nO numero eh divisivel por 3 e por 7 ao mesmo tempo";
+     }
+     senao
+     {
+        imprima "\nO numero NAO eh divisivel por 3 e por 7 ao mesmo tempo";
+     }
+     imprima "\n\n";
+     
+fimprog

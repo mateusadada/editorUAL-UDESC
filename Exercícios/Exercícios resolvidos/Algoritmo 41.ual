@@ -1,0 +1,20 @@
+prog Algoritmo41
+
+     int numero1, numero2, numero3, numero4;
+     
+     imprima "\nDigite um numero: ";
+     leia numero1;
+     
+     imprima "Digite outro numero: ";
+     leia numero2;
+     
+     imprima "Digite outro numero: ";
+     leia numero3;
+     
+     imprima "Digite outro numero: ";
+     leia numero4;
+     
+     imprima "\nA media ponderada: ", ((numero1 * 1) + (numero2 * 2) + (numero3 * 3) + (numero4 * 4))/4;
+
+     imprima "\n\n";
+fimprog

@@ -1,0 +1,11 @@
+prog Algoritmo71
+
+     int horas;
+     
+     imprima "\nInforme qual a hora atual: ";
+     leia horas;
+
+     imprima "\nJa se passaram ", horas * 60, " minutos desde o inicio do dia";
+
+     imprima "\n\n";
+fimprog

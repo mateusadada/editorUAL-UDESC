@@ -1,0 +1,16 @@
+prog Algoritmo50
+
+     real base, altura;
+     
+     imprima "\nDigite a base do retangulo: ";
+     leia base;
+     
+     imprima "Digite a altura do retangulo: ";
+     leia altura;
+     
+     imprima "\nPerimetro: ", formatar((base * 2) + (altura * 2),2);
+     imprima "\nArea: ", formatar((base * altura),2);
+     imprima "\nDiagonal: ", formatar(raiz((base ** 2) + (altura ** 2)),2);
+
+     imprima "\n\n";
+fimprog

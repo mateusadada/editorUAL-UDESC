@@ -1,0 +1,14 @@
+prog vetor2
+
+     int i, valores[10];
+     
+     para (i <- 0; i < 10; i++)
+     {   valores[i] <- i + 1;
+     }
+     
+     para (i <- 0; i < 10; i++)
+     {   imprima "\nValor da posicao ", i, ": ", valores[i];
+     }
+
+     imprima "\n\n";
+fimprog

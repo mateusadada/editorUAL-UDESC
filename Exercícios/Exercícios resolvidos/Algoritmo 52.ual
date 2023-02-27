@@ -1,0 +1,13 @@
+prog Algoritmo52
+
+     real LadoQuadrado;
+     
+     imprima "\nDigite o lado de um quadrado: ";
+     leia LadoQuadrado;
+     
+     imprima "\nPerimetro: ", formatar(LadoQuadrado * 4,2);
+     imprima "\nArea: ", formatar(LadoQuadrado ** 2,2);
+     imprima "\nDiagonal: ", formatar(raiz((LadoQuadrado ** 2) * 2),2);
+
+     imprima "\n\n";
+fimprog

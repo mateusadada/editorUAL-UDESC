@@ -1,0 +1,14 @@
+#Fazer um algoritmo recebe a conta da lanchonete e quantidade de amigos e mostre ao final que valor que cada amigo deve pagar.
+
+prog AlgoritmoExtra
+     real conta, VF;
+     int amigos;
+     imprima "\nInforme a conta da lanchonete: ";
+     leia conta;
+     imprima "\nInforme a quantidade de amigos: ";
+     leia amigos;
+     VF <- conta/amigos;
+     imprima "\nCada um deve pagar R$ ", formatar(VF,2), " reais";
+     imprima "\n\n";
+     
+fimprog     

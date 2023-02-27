@@ -1,0 +1,27 @@
+prog Algoritmo83
+
+     real numero;
+     
+     imprima "\nDigite um numero real: ";
+     leia numero;
+     
+     se (numero == 0.0)
+     {
+         imprima "\nNao acontecera nada";  
+     }
+     
+     senao
+     {
+         se (numero > 0.0)
+         {
+             imprima "\nInverso: ", 1 / numero;
+         }
+         
+         senao
+         {
+             imprima "\nAbsoluto: ", formatar(abs(numero),1);
+         }     
+     }
+
+     imprima "\n\n";
+fimprog

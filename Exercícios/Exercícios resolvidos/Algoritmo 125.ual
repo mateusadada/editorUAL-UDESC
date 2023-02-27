@@ -1,0 +1,26 @@
+#Algoritmo 125
+#Entrar com a idade de uma pessoa e informar:
+# se é maior de idade
+# se é menor de idade
+# se é maior de 65 anos
+
+prog Algoritmo125
+
+     int idade;
+     imprima "\nInforme a idade: ";
+     leia idade;
+     se (idade > 65)
+     {
+     imprima "\nA pessoa e maior de 65 anos";
+     }
+     se ((idade >= 18) && (idade < 66))
+     {
+     imprima "\nA pessoa e maior de idade";
+     }
+     se (idade < 18)
+     {
+     imprima "\nA pessoa e menor de idade";
+     }
+     imprima "\n\n";
+     
+fimprog

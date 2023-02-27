@@ -1,0 +1,27 @@
+#Algoritmo 140
+#Um restaurante faz uma promoção semanal de descontos para clientes de acordo
+#com as iniciais do nome da pessoa. Criar um algoritmo que leia o primeiro nome
+#do cliente, o valor de sua conta e se o nome iniciar com as letras A, D, M ou S, dar um desconto de 30%. Para o cliente cujo nome não se inicia por nenhuma dessas
+#letras, exibir a mensagem "Que pena. Nesta semana o desconto não é para seu nome; mas continue nos prestigiando que sua vez chegará".
+
+prog Algoritmo140
+
+     string nome;
+     real valor;
+     imprima "\nInforme o primeiro nome: ";
+     leia nome;
+     imprima "Informe o valor da conta: R$ ";
+     leia valor;
+     
+     se ((strprim(nome) == "A") || (strprim(nome) == "D") || (strprim(nome) == "M") || (strprim(nome) == "S"))
+     {
+     imprima "\nVoce ganhou um desconto de 30%. Sua conta agora ficou: R$ ", valor * 0.7, " reais";
+     }
+     
+     senao
+     {
+     imprima "\nQue pena. Nesta semana o desconto nao eh para seu nome; mas continue nos prestigiando que sua vez chegara";
+     }
+     
+     imprima "\n\n";
+fimprog

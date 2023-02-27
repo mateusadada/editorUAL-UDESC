@@ -1,0 +1,41 @@
+prog ExtraTeam
+
+     int i, i2, numero;
+     
+     faca
+     {
+          imprima "\nDigite um numero entre 1 e 10 (99-Encerra): ";
+          leia numero;
+          
+          se (numero == 99)
+          {
+               imprima "\nFIM DO PROGRAMA";
+          }
+          
+          senao
+          {
+               se ((numero < 1) || (numero > 10))
+               {
+                    imprima "\nFIM DO PROGRAMA";
+               }
+               
+               senao
+               {
+                    para (i <- numero; i <= numero; i++)
+                    {
+                         imprima "\nTabuada do ", i;
+                         
+                         para (i2 <- 1; i2 <= 10; i2++)
+                         {
+                              imprima "\n", i, " x ", i2, " = ", i * i2;
+                         }
+                         
+                         imprima "\n";
+                    }
+               }
+          }
+     }
+     enquanto ((numero > 0) && (numero < 11))
+
+     imprima "\n\n";
+fimprog

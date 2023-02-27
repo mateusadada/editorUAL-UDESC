@@ -1,0 +1,14 @@
+prog Algoritmo55
+
+     real diagonalA, diagonalB;
+     
+     imprima "\nDigite a diagonal do losango: ";
+     leia diagonalA;
+     
+     imprima "Digite a outra diagonal do losango: ";
+     leia diagonalB;
+
+     imprima "\nArea: ", formatar((diagonalA * diagonalB)/2,2);
+
+     imprima "\n\n";
+fimprog

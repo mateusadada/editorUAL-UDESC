@@ -1,0 +1,56 @@
+prog Algoritmo335
+
+     int FLAG, idade, contador, i, sexo, olhos, cabelo, maior, porcentagem;
+         
+      FLAG <- 1; 
+      porcentagem <- 0;  
+         
+     imprima "\nDigite quantos habitantes sera inserido as caracteristicas: ";
+     leia contador;
+     
+     se (contador < 1)
+     {
+          imprima "\nFIM DO PROGRAMA";
+     }
+     
+     senao
+     {
+          para (i <- 0; i < contador; i++)
+          {
+               imprima "\nRepeticoes ", i+1, " de ", contador;
+               
+               imprima "\nDigite o sexo (1-masculino | 2-feminino): ";
+               leia sexo;
+               
+               imprima "Digite a cor dos olhos (1-azuis | 2-verdes | 3-castanhos): ";
+               leia olhos;
+               
+               imprima "Digite a cor dos cabelos (1-louros | 2-castanhos | 3-pretos ): ";
+               leia cabelo;
+               
+               imprima "Digite a idade: ";
+               leia idade;
+               
+               se (FLAG == 1)
+               {
+                    FLAG <- 0;
+                    maior <- idade;                    
+               }
+               
+               se (idade > maior)
+               {
+                    maior <- idade;
+               }
+               
+               se ((idade > 18) && (idade < 35) && (olhos == 2) && (cabelo == 1) && (sexo == 2))
+               {
+                    porcentagem++;
+               }               
+          }
+          
+          imprima "\nMaior idade: ", maior; 
+          imprima "\nPorcentagem: ", formatar ((porcentagem / contador)*100,2), " %";
+     }
+
+     imprima "\n\n";    
+fimprog

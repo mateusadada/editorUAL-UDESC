@@ -1,0 +1,30 @@
+prog Algoritmo265b
+
+     int numero, contador;
+     
+     contador <- 0;
+     imprima "\n";
+     
+     faca
+     {
+          imprima "Digite um numero: ";
+          leia numero;
+          
+          se (numero == 0)
+          {
+          }
+          
+          senao
+          {
+               se ((numero > 100) && (numero < 200))
+               {
+                    contador++;
+               }               
+          }
+     }
+     enquanto (numero <> 0)
+     
+     imprima "\nA quantidade de numero digitados entre 100 e 200 eh ", contador;
+     
+     imprima "\n\n";
+fimprog

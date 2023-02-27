@@ -1,0 +1,24 @@
+#Algoritmo 98
+#A prefeitura do Rio de Janeiro abriu uma linha de crédito para os funcionários 
+#estatutários. O valor máximo da prestação não poderá ultrapassar 30% do salário
+#bruto. Fazer um algoritmo que permita entrar com o salário bruto e o valor da
+#prestação e informar se o empréstimo pode ou não ser concedido.
+
+prog Algoritmo98
+
+     real salario, prestacao;
+     imprima "\nInforme o salario bruto: ";
+     leia salario;
+     imprima "\nInforme o valor da prestacao: ";
+     leia prestacao;
+     se ( salario * 0.3 >= prestacao)
+     {
+        imprima "\nO emprestimo pode ser concedido";
+     }
+     senao
+     {
+          imprima "\nO emprestimo NAO pode ser concedido";
+     }
+     imprima "\n\n";
+     
+fimprog

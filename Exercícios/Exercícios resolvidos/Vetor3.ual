@@ -1,0 +1,22 @@
+prog Vetor3
+
+   int valor[5], i;
+   
+   imprima "\n";
+   
+   para (i <- 0; i < 5; i++)
+   {
+      imprima "Digite um numero inteiro: ";
+      leia valor[i];
+   }
+   
+   para (i <- 0; i < 5; i++)
+   {
+      se ((valor[i] % 2) == 1)
+      {
+         imprima "\nO vetor ", i, " com o valor ", valor[i], " eh impar";
+      }
+   }
+
+   imprima "\n\n";
+fimprog

@@ -1,0 +1,15 @@
+#Cada degrau de uma escada tem X de altura. 
+#Faça um programa que receba essa altura e a altura que o usuário deseja alcançar subindo a escada. 
+#Calcule e mostre quantos degraus o usuário deverá subir para atingir seu objetivo, sem se preocupar com a altura do usuário.
+
+prog Exercicio2
+     
+     real AlturaEscada, AlturaSubir;
+     imprima "\nInforme a altura da escada: ";
+     leia AlturaEscada;
+     imprima "\nInforme a altura que quer subir: ";
+     leia AlturaSubir;
+     imprima "\nVoce devera subir ", formatar(AlturaSubir/AlturaEscada,1), " degraus";
+     imprima "\n\n";
+     
+fimprog

@@ -1,0 +1,9 @@
+prog Algoritmo15
+
+     imprima "\nAprendendo Algoritmo";
+     imprima "\nCom Anita e Guto";
+     imprima "\n\nE implementando no UAL";
+     imprima "\nFica tudo mais facil";
+
+     imprima "\n\n";
+fimprog
