@@ -1,5 +1,5 @@
 # editorUAL-UDESC
- Exercícios com a linguagem de programação EDITOR UAL - 1º Semestre
+ Exercícios com a linguagem de programação EDITOR UAL - 1º Semestre do curso Bacharelado em Sistemas de Informação.
 
 * A pasta **Aplicativo** contém o arquivo para inicializar o programa.
 
