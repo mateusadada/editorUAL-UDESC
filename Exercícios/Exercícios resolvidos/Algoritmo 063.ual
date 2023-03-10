@@ -1,6 +1,6 @@
 prog Algoritmo63
 
-     real ValorHora, INSS, salarioFinal;
+     real ValorHora, INSS;
      int NumeroAulas;
      
      imprima "\nDigite o valor da hora aula: R$ ";
@@ -11,10 +11,8 @@ prog Algoritmo63
      
      imprima "Digite o percentual de desconto do INSS: ";
      leia INSS;
-     
-     salarioFinal <- (ValorHora * NumeroAulas) * ((100.0 - INSS)/100);
 
-     imprima "\nSalario liquido: R$ ", salarioFinal;
+     imprima "\nSalario liquido: R$ ", (ValorHora * NumeroAulas) * ((100.0 - INSS)/100);
 
      imprima "\n\n";
 fimprog
